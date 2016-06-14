@@ -1,6 +1,6 @@
 # Yii2 Sortable widgets
 
-Implementation Rubaxa/Sortable for Yii2 widgets.
+Implementation Rubaxa/Sortable for Yii2 widgets. Position starts with 1.
 
 Supported:
 
@@ -8,18 +8,18 @@ Supported:
 
 ![demo](https://hsto.org/files/60e/e7a/ced/60ee7aced7794a638d0a6365062397ad.gif)
 
-[![Latest Stable Version](https://poser.pugx.org/kotchuprik/yii2-sortable-widgets/v/stable)](https://packagist.org/packages/kotchuprik/yii2-sortable-widgets)
-[![Total Downloads](https://poser.pugx.org/kotchuprik/yii2-sortable-widgets/downloads)](https://packagist.org/packages/kotchuprik/yii2-sortable-widgets)
-[![Monthly Downloads](https://poser.pugx.org/kotchuprik/yii2-sortable-widgets/d/monthly)](https://packagist.org/packages/kotchuprik/yii2-sortable-widgets)
-[![Latest Unstable Version](https://poser.pugx.org/kotchuprik/yii2-sortable-widgets/v/unstable)](https://packagist.org/packages/kotchuprik/yii2-sortable-widgets)
-[![License](https://poser.pugx.org/kotchuprik/yii2-sortable-widgets/license)](https://packagist.org/packages/kotchuprik/yii2-sortable-widgets)
+[![Latest Stable Version](https://poser.pugx.org/beatep/yii2-sortable-widgets/v/stable)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
+[![Total Downloads](https://poser.pugx.org/beatep/yii2-sortable-widgets/downloads)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
+[![Monthly Downloads](https://poser.pugx.org/beatep/yii2-sortable-widgets/d/monthly)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
+[![Latest Unstable Version](https://poser.pugx.org/beatep/yii2-sortable-widgets/v/unstable)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
+[![License](https://poser.pugx.org/beatep/yii2-sortable-widgets/license)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
 
 ## Usage
 
 Create a new migration, change a parent to the migration class from the extension and specify the table name property:
 
 ```php
-class m140811_131705_Models_order extends \kotchuprik\sortable\migrations\Migration
+class m140811_131705_Models_order extends \beatep\sortable\migrations\Migration
 {
     protected $tableName = 'models';
 }
@@ -32,7 +32,7 @@ public function behaviors()
 {
     return [
         'sortable' => [
-            'class' => \kotchuprik\sortable\behaviors\Sortable::className(),
+            'class' => \beatep\sortable\behaviors\Sortable::className(),
             'query' => self::find(),
         ],
     ];
@@ -46,7 +46,7 @@ public function actions()
 {
     return [
         'sorting' => [
-            'class' => \kotchuprik\sortable\actions\Sorting::className(),
+            'class' => \beatep\sortable\actions\Sorting::className(),
             'query' => \vendor\namespace\Model::find(),
         ],
     ];
@@ -63,7 +63,7 @@ echo \yii\grid\GridView::widget([
     },
     'columns' => [
         [
-            'class' => \kotchuprik\sortable\grid\Column::className(),
+            'class' => \beatep\sortable\grid\Column::className(),
         ],
         'id',
         'title',
