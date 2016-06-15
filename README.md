@@ -8,12 +8,6 @@ Supported:
 
 ![demo](https://hsto.org/files/60e/e7a/ced/60ee7aced7794a638d0a6365062397ad.gif)
 
-[![Latest Stable Version](https://poser.pugx.org/beatep/yii2-sortable-widgets/v/stable)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
-[![Total Downloads](https://poser.pugx.org/beatep/yii2-sortable-widgets/downloads)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
-[![Monthly Downloads](https://poser.pugx.org/beatep/yii2-sortable-widgets/d/monthly)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
-[![Latest Unstable Version](https://poser.pugx.org/beatep/yii2-sortable-widgets/v/unstable)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
-[![License](https://poser.pugx.org/beatep/yii2-sortable-widgets/license)](https://packagist.org/packages/beatep/yii2-sortable-widgets)
-
 ## Usage
 
 Create a new migration, change a parent to the migration class from the extension and specify the table name property:

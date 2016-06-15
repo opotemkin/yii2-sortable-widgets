@@ -1,8 +1,8 @@
 <?php
 
-namespace kotchuprik\sortable\grid;
+namespace beatep\sortable\grid;
 
-use kotchuprik\sortable\assets\SortableAsset;
+use beatep\sortable\assets\SortableAsset;
 use yii\helpers\Html;
 use yii\web\View;
 

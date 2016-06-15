@@ -1,6 +1,6 @@
 <?php
 
-namespace kotchuprik\sortable\behaviors;
+namespace beatep\sortable\behaviors;
 
 use yii\base\Behavior;
 use yii\db\ActiveRecord;

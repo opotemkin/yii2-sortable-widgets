@@ -1,12 +1,12 @@
 <?php
 
-namespace kotchuprik\sortable\assets;
+namespace beatep\sortable\assets;
 
 use yii\web\AssetBundle;
 
 class SortableAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/kotchuprik/yii2-sortable-widgets/assets/files';
+    public $sourcePath = '@vendor/beatep/yii2-sortable-widgets/assets/files';
 
     public $js = [
         'js/sortable-widgets.js',
@@ -17,6 +17,6 @@ class SortableAsset extends AssetBundle
     ];
 
     public $depends = [
-        'kotchuprik\sortable\assets\RubaxaAsset',
+        'beatep\sortable\assets\RubaxaAsset',
     ];
 }

@@ -1,7 +1,7 @@
 {
-  "name": "kotchuprik/yii2-sortable-widgets",
+  "name": "beatep/yii2-sortable-widgets",
   "description": "Implementation Rubaxa/Sortable for Yii2. Sortable grid view inside.",
-  "homepage": "http://github.com/kotchuprik/yii2-sortable-widgets",
+  "homepage": "http://github.com/beatep/yii2-sortable-widgets",
   "keywords": [
     "yii2",
     "rubaxa",
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "kotchuprik\\sortable\\": ""
+      "beatep\\sortable\\": ""
     }
   }
 }
